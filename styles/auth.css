@@ -15,6 +15,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -61,11 +62,15 @@ body {
   font-weight: 400;
 }
 
-.content .text-area p {
-  width: 290px;
-  font-size: 14px;
-  line-height: 24px;
-  color: #5D577E;
+.content .text-area input {
+  width: 296px;
+  height: 56px;
+  border: none;
+  border-radius: 10px;
+  background: #F3F1F1;
+  padding-left: 24px;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .content .btn {
@@ -92,4 +97,4 @@ body {
   color: white;
   font-size: 16px;
 }
-/*# sourceMappingURL=welcome.css.map */
+/*# sourceMappingURL=auth.css.map */
