@@ -41,7 +41,7 @@ body {
             padding-top: 2px;
             margin-bottom: 1rem;
             color: $secondary;
-            font-weight: 400;
+            font-weight: bold;
         }
     }
 
@@ -57,11 +57,12 @@ body {
             border-radius: 10px;
             background: $third;
             font-size: 20px;
-            font-weight: 200;
+            font-weight: thin;
             margin-left: auto;
             margin-right: auto;
             box-sizing: border-box;
             padding-left: 24px;
+            outline: none;
         }
         button {
             width: 87%;

@@ -1,5 +1,5 @@
 html, body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -62,7 +62,7 @@ body {
   padding-top: 2px;
   margin-bottom: 1rem;
   color: #27214D;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .content .form {
@@ -86,12 +86,13 @@ body {
   border-radius: 10px;
   background: #F3F1F1;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: thin;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 24px;
+  outline: none;
 }
 
 .content .form button {
