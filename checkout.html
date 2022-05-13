@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/basket.css">
+    <link rel="stylesheet" href="styles/checkout.css">
     <title>Basket - Fruit Hub</title>
 </head>
 <body>
@@ -67,17 +67,18 @@
                 </div>
             </div>
         </div>
-        <div class="bottom">
-            <div class="buttons">
-                <div class="total">
-                    <p>Total</p>
-                    <div class="price">
-                        <img src="./assets/price.png" alt="">
-                        <p>60,000</p>
-                    </div>
-                </div>
-                <button class="checkout" onclick="window.location = 'checkout.html';">Checkout</button>
-            </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="bottom">
+        <div class="form">
+            <p>Delivery address</p>
+            <input type="text" placeholder="10th avenue, Lekki, Lagos State">
+            <p>Number we can call</p>
+            <input type="text" placeholder="09090605708">
+        </div>
+        <div class="buttons">
+            <button class="checkout" onclick="window.location = 'checkout.html';">Pay on delivery</button>
+            <button class="checkout" onclick="window.location = 'checkout.html';">Pay with card</button>
         </div>
     </div>
 </body>
