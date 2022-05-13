@@ -25,7 +25,7 @@ body {
     img {
         width: 11rem;
         height: 11rem;
-        margin-bottom: 2rem;
+        margin-top: 0.625rem;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -37,6 +37,129 @@ body {
     height: 61.33%;
     background-color: white;
     border-radius: 1rem 1rem 0 0;
-
+    .top {
+        height: 10.563rem;
+        h1{
+            font-size: 29px;
+            font-weight: 500;
+            color: $secondary;
+            margin: 0;
+            padding-top: 2.5rem;
+            padding-bottom: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        .items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            .quantity {
+                width: 7.5rem;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                img {
+                    width: 2rem;
+                    height: 2rem;
+                }
+                p {
+                    font-size: 24px;
+                    margin:0;
+                }
+            }
+            .price {
+                width: 7.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-bottom: 2rem;
+                img {
+                    width: 1.25rem;
+                    height: 1rem;
+                    margin-right: 0.38rem;
+                }
+                p {
+                    font-size: 24px;
+                    color: $secondary;
+                    margin:0 0.313rem 0 0;
+                }
+            }
+        }
+        hr {
+            width: auto;
+            border: 1px solid #f3f3f3;
+            margin: 0;
+        }
+    }
+    .ingredients {
+        height: 9.5rem;
+        h1 {
+            margin: 0;
+            font-size: 20px;
+            color: $secondary;
+            font-weight: 500;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-bottom: 2px;
+            padding-top: 2rem;
+        }
+        .underline {
+            margin:0 0 0 1.5rem;
+            width: 170px;
+            border: 1px solid $primary;
+        }
+        p { 
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 1rem;
+            color: $secondary;
+            font-size: 14px;
+            margin: 1.2rem 0 1.25rem 0;
+        }
+        .divider {
+            width: auto;
+            border: 1px solid #f3f3f3;
+            margin: 0;
+        }
+    }
+    .bottom {
+        padding-top: 24px;
+        p {
+            margin: 0;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-bottom: 2.438rem;
+            font-size: 14px;
+            font-weight: 300;
+            color: black;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            .fav {
+                width: 3rem;
+                height: 3rem;
+                border: none;
+                background-color: transparent;
+                img {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+            .basket {
+                width: 13.688rem;
+                height: 3.5rem;
+                border: none;
+                border-radius: 10px;
+                background-color: $primary;
+                color: white;
+            }
+        }
+    }
     
 }
