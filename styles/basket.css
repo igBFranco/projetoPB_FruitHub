@@ -1,0 +1,283 @@
+html, body {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lato", sans-serif;
+  background-color: #FFA451;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 17.734%;
+  background-color: #FFA451;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+.navbar #back {
+  width: 5rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+  margin-top: 4.5rem;
+  margin-right: 2.125rem;
+}
+
+.navbar .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.navbar .title h1 {
+  margin: 4.5rem 0 0 0;
+  display: block;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.content {
+  width: 100%;
+  height: 82.266%;
+  background-color: white;
+}
+
+.content .top .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.content .top .list-item .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: rem;
+  padding-bottom: 1rem;
+}
+
+.content .top .list-item .item .image {
+  width: 4rem;
+  margin-top: 2.5rem;
+  height: 4rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FFFAEB;
+}
+
+.content .top .list-item .item .image img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.content .top .list-item .item .image2 {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F1EFF6;
+}
+
+.content .top .list-item .item .image2 img {
+  width: 2.5rem;
+}
+
+.content .top .list-item .item .image3 {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FEF0F0;
+}
+
+.content .top .list-item .item .image3 img {
+  width: 3rem;
+}
+
+.content .top .list-item .item .text-top {
+  margin-top: 3.063rem;
+}
+
+.content .top .list-item .item .text-top p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 .5rem 1rem;
+}
+
+.content .top .list-item .item .text-top p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 0 1rem;
+}
+
+.content .top .list-item .item .text {
+  margin-top: 2.5rem;
+}
+
+.content .top .list-item .item .text p:first-child {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 .5rem 1rem;
+}
+
+.content .top .list-item .item .text p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 0 1rem;
+}
+
+.content .top .list-item .price {
+  width: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content .top .list-item .price img {
+  width: 1rem;
+  margin-right: 0.38rem;
+}
+
+.content .top .list-item .price p {
+  font-size: 16px;
+  color: #27214D;
+  margin: 0 0.313rem 0 0;
+}
+
+.content .top hr {
+  width: auto;
+  height: 1px;
+  background: #f3f3f3;
+  border: none;
+  margin: 0;
+}
+
+.content .bottom {
+  padding-top: 24px;
+  bottom: 2.938rem;
+  position: fixed;
+}
+
+.content .bottom .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.content .bottom .buttons .total p {
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+
+.content .bottom .buttons .total .price {
+  width: 7.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 0.5rem;
+}
+
+.content .bottom .buttons .total .price img {
+  width: 1.5rem;
+  margin-right: 0.38rem;
+}
+
+.content .bottom .buttons .total .price p {
+  font-size: 24px;
+  color: #27214D;
+  margin: 0 0.313rem 0 0;
+}
+
+.content .bottom .buttons .checkout {
+  width: 12.438rem;
+  height: 3.5rem;
+  bottom: 2.938rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFA451;
+  color: white;
+}
+/*# sourceMappingURL=basket.css.map */

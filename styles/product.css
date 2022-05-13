@@ -134,7 +134,9 @@ body {
 
 .content .top hr {
   width: auto;
-  border: 1px solid #f3f3f3;
+  height: 1px;
+  background: #f3f3f3;
+  border: none;
   margin: 0;
 }
 
@@ -170,7 +172,9 @@ body {
 
 .content .ingredients .divider {
   width: auto;
-  border: 1px solid #f3f3f3;
+  height: 1px;
+  background: #f3f3f3;
+  border: none;
   margin: 0;
 }
 
