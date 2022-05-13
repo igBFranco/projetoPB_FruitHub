@@ -142,6 +142,9 @@ body {
   left: 2.25rem;
   right: 2.25rem;
   position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content .recomended .recomended-cards a h3 {
@@ -254,6 +257,7 @@ body {
   border-radius: 0.625rem;
   position: relative;
   margin-right: 1rem;
+  text-decoration: none;
 }
 
 .content .hottest .hottest-cards a #heart {
@@ -269,6 +273,9 @@ body {
   left: 2.375rem;
   right: 2.375rem;
   position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content .hottest .hottest-cards a h3 {
@@ -290,6 +297,9 @@ body {
   left: 1.375rem;
   right: 1.375rem;
   position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content .hottest .hottest-cards a #money {

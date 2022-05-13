@@ -1,0 +1,42 @@
+@import './variables/base'; 
+
+body {
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: $font;
+    background-color: $primary;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 38.67%;
+    background-color: $primary;
+    flex-direction: column;
+    #back {
+        width: 5rem;
+        height: 2rem;
+        margin-left: 1.5rem;
+        margin-top: 4rem;
+    }
+    img {
+        width: 11rem;
+        height: 11rem;
+        margin-bottom: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.content {
+    width: 100%;
+    height: 61.33%;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+
+    
+}
