@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/checkout.css">
-    <title>Card Details - Fruit Hub</title>
+    <link rel="stylesheet" href="styles/card_details.css">
+    <title>Basket - Fruit Hub</title>
 </head>
 <body>
     <div class="navbar">
@@ -70,18 +70,31 @@
     </div>
     <div class="overlay"></div>
     <div class="close">
-        <img src="./assets/close.png" alt="" id="close" onclick="window.location = 'basket.html';">
+        <img src="./assets/close.png" alt="" id="close" onclick="window.location = 'checkout.html';">
     </div>
     <div class="bottom">
         <div class="form">
-            <p>Delivery address</p>
-            <input type="text" placeholder="10th avenue, Lekki, Lagos State">
-            <p class="number">Number we can call</p>
-            <input type="text" placeholder="09090605708">
+            <div class="name">
+                <p>Card Holders Name</p>
+                <input type="text" placeholder="Adolphus Chris">
+            </div>
+            <div class="card">
+                <p class="number">Card Number</p>
+                <input type="text" placeholder="1234 5678 9012 1314">
+            </div>
+            <div class="details">
+                <div class="date">
+                    <p>Date</p>
+                    <input type="text" placeholder="10/30">
+                </div>
+                <div class="ccv">
+                    <p>CCV</p>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
         </div>
-        <div class="buttons">
-            <button class="checkout" onclick="window.location = 'order_complete.html';">Pay on delivery</button>
-            <button class="checkout" onclick="window.location = 'card_details.html';">Pay with card</button>
+        <div class="button">
+            <button class="checkout" onclick="window.location = 'order_complete.html';">Complete Order</button>
         </div>
     </div>
 </body>
