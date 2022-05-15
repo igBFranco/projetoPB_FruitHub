@@ -88,7 +88,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: rem;
-  padding-bottom: 1rem;
 }
 
 .content .top .list-item .item .image {
@@ -115,7 +114,6 @@ body {
 .content .top .list-item .item .image2 {
   width: 4rem;
   height: 4rem;
-  margin-top: 2rem;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,7 +134,6 @@ body {
 .content .top .list-item .item .image3 {
   width: 4rem;
   height: 4rem;
-  margin-top: 2rem;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,7 +145,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #FEF0F0;
-  margin-bottom: 0.875rem;
 }
 
 .content .top .list-item .item .image3 img {
@@ -187,7 +183,7 @@ body {
 }
 
 .content .top .list-item .item .text {
-  margin-top: 3.3rem;
+  margin-top: 1.5rem;
 }
 
 .content .top .list-item .item .text p:first-child {
@@ -203,7 +199,7 @@ body {
 }
 
 .content .top .list-item .item .text-bottom {
-  margin-top: 2.6rem;
+  margin-top: .5rem;
 }
 
 .content .top .list-item .item .text-bottom p:first-child {
@@ -232,7 +228,12 @@ body {
 
 .content .top .list-item .status img {
   width: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
+}
+
+.content .top .list-item .status .img2 {
+  width: 1.5rem;
+  margin-top: .5rem;
 }
 
 .content .top .list-item .status .phone {
@@ -240,8 +241,26 @@ body {
   margin-top: 0;
 }
 
-.content .top .list-item .status .dots {
-  width: 2.5rem;
+.content .top .dots {
+  height: 3rem;
+  margin-left: 3.5rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.content .top .dots img {
+  height: 3rem;
+}
+
+.content .top .dots2 {
+  height: 1.188rem;
+  margin-left: 3.5rem;
+  margin-top: 4px;
+  margin-bottom: 3px;
+}
+
+.content .top .dots2 img {
+  height: 1.188rem;
 }
 
 .content .top .map {
@@ -254,13 +273,7 @@ body {
   width: 327px;
 }
 
-.content .bottom {
-  padding-top: 24px;
-  bottom: 2.938rem;
-  position: fixed;
-}
-
-.content .bottom .buttons {
+.content .top .last-list-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,44 +288,64 @@ body {
   padding-right: 1.5rem;
 }
 
-.content .bottom .buttons .total p {
-  font-size: 16px;
-  color: black;
-  margin: 0;
+.content .top .last-list-item .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: rem;
 }
 
-.content .bottom .buttons .total .price {
-  width: 7.5rem;
+.content .top .last-list-item .item .image4 {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding-top: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F0FEF8;
 }
 
-.content .bottom .buttons .total .price img {
+.content .top .last-list-item .item .image4 img {
+  width: 2.5rem;
+}
+
+.content .top .last-list-item .item .text {
+  margin-top: 1.5rem;
+}
+
+.content .top .last-list-item .item .text p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 .5rem 1rem;
+}
+
+.content .top .last-list-item .status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content .top .last-list-item .status img {
   width: 1.5rem;
-  margin-right: 0.38rem;
 }
 
-.content .bottom .buttons .total .price p {
-  font-size: 24px;
-  color: #27214D;
-  margin: 0 0.313rem 0 0;
-}
-
-.content .bottom .buttons .checkout {
-  width: 12.438rem;
-  height: 3.5rem;
-  bottom: 2.938rem;
-  border: none;
-  border-radius: 10px;
-  background-color: #FFA451;
-  color: white;
+.content .top .last-list-item .status .dots {
+  width: 2.5rem;
+  height: .5rem;
 }
 /*# sourceMappingURL=track.css.map */

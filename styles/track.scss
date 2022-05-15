@@ -53,7 +53,6 @@ body {
                 display: flex;
                 justify-content: space-between;
                 margin-bottom: rem;
-                padding-bottom: 1rem;
                 .image {
                     width: 4rem;
                     margin-top: 2.5rem;
@@ -70,7 +69,6 @@ body {
                 .image2 {
                     width: 4rem;
                     height: 4rem;
-                    margin-top: 2rem;
                     border-radius: 10px;
                     display: flex;
                     align-items: center;
@@ -83,13 +81,11 @@ body {
                 .image3 {
                     width: 4rem;
                     height: 4rem;
-                    margin-top: 2rem;
                     border-radius: 10px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     background-color: $hottest2;
-                    margin-bottom: 0.875rem;
                     img {
                         width: 3.5rem;
                     }
@@ -116,7 +112,7 @@ body {
                     }
                 }
                 .text {
-                    margin-top: 3.3rem;
+                    margin-top: 1.5rem;
                     p:first-child {
                         font-size: 15px;
                         font-weight: 500;
@@ -129,7 +125,7 @@ body {
                     }
                 }
                 .text-bottom {
-                    margin-top: 2.6rem;
+                    margin-top: .5rem;
                     p:first-child {
                         font-size: 15px;
                         font-weight: 500;
@@ -149,15 +145,34 @@ body {
                 justify-content: flex-end;
                 img {
                     width: 1.5rem;
-                    margin-top: 1rem;
+                    margin-top: 2.5rem;
+                }
+                .img2 {
+                    width: 1.5rem;
+                    margin-top: .5rem;
                 }
                 .phone {
                     width: 2.5rem;
                     margin-top: 0;
                 }
-                .dots {
-                    width: 2.5rem;
-                }
+            }
+        }
+        .dots {
+            height: 3rem;
+            margin-left: 3.5rem;
+            margin-top: 4px;
+            margin-bottom: 4px;
+            img {
+                height: 3rem;
+            }
+        }
+        .dots2 {
+            height: 1.188rem;
+            margin-left: 3.5rem;
+            margin-top: 4px;
+            margin-bottom: 3px;
+            img {
+                height: 1.188rem;
             }
         }
         .map {
@@ -168,50 +183,49 @@ body {
                 width: 327px;
             }
         }
-    }
-    .bottom {
-        padding-top: 24px;
-        bottom: 2.938rem;
-        position: fixed;
-        .buttons {
+        .last-list-item {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             padding-left: 1.5rem;
             padding-right: 1.5rem;
-            .total {
-                p {
-                    font-size: 16px;
-                    color: black;
-                    margin: 0;
-                }
-                .price {
-                    width: 7.5rem;
+            .item {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: rem;
+                .image4 {
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 10px;
                     display: flex;
                     align-items: center;
-                    justify-content: flex-start;
-                    padding-top: 0.5rem;
+                    justify-content: center;
+                    background-color: #F0FEF8;
                     img {
-                        width: 1.5rem;
-                        margin-right: 0.38rem;
+                        width: 2.5rem;
                     }
+                }
+                .text {
+                    margin-top: 1.5rem;
                     p {
-                        font-size: 24px;
-                        color: $secondary;
-                        margin:0 0.313rem 0 0;
+                        font-size: 15px;
+                        font-weight: 500;
+                        margin:0 0 .5rem 1rem;
                     }
                 }
             }
-            .checkout {
-                width: 12.438rem;
-                height: 3.5rem;
-                bottom: 2.938rem;
-                border: none;
-                border-radius: 10px;
-                background-color: $primary;
-                color: white;
+            .status {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                img {
+                    width: 1.5rem;
+                }
+                .dots {
+                    width: 2.5rem;
+                    height: .5rem;
+                }
             }
         }
     }
-    
 }
