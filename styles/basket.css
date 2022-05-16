@@ -223,9 +223,15 @@ body {
   padding-top: 24px;
   bottom: 2.938rem;
   position: fixed;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
 }
 
 .content .bottom .buttons {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,8 +242,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .content .bottom .buttons .total p {
@@ -272,7 +276,8 @@ body {
 }
 
 .content .bottom .buttons .checkout {
-  width: 12.438rem;
+  max-width: 61%;
+  width: 199px;
   height: 3.5rem;
   bottom: 2.938rem;
   border: none;

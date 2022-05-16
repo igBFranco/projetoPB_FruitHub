@@ -150,12 +150,15 @@ body {
         padding-top: 24px;
         bottom: 2.938rem;
         position: fixed;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        box-sizing: border-box;
+        width: 100%;
         .buttons {
+            width: 100%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
             .total {
                 p {
                     font-size: 16px;
@@ -180,7 +183,8 @@ body {
                 }
             }
             .checkout {
-                width: 12.438rem;
+                max-width: 61%;
+                width: 199px;
                 height: 3.5rem;
                 bottom: 2.938rem;
                 border: none;
