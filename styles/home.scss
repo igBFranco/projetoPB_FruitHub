@@ -58,7 +58,7 @@ body {
                 background-color: $search;
                 padding-left: 3.5rem;
                 box-sizing: border-box;
-                font-size: 14px;
+                font-size: 12px;
                 outline: none;
                 margin-bottom: 2.5rem;
             }
@@ -89,6 +89,7 @@ body {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            width: 100%;
             max-width: 500px;
             a {
                 width: 46.4862%;
@@ -102,24 +103,32 @@ body {
                     top: 1rem;
                     right: 1rem;
                 }
-                #rec1 {
-                    width: 5rem;
-                    top: 1.375rem;
-                    left: 2.25rem;
-                    right: 2.25rem;
-                    position: absolute;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
+                .top-card {
+                    width: 100%;
+                    height: 102px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    #rec1 {
+                        max-width: 5rem;
+                        top: 1.375rem;
+                        left: 2.25rem;
+                        right: 2.25rem;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
                 h3 {
                     position: inherit;
                     text-decoration: none;
                     color: $secondary;
                     font-size: 15px;
-                    top: 6.875rem;
                     left: auto;
                     right: auto;
+
+                    padding-left: 0.4rem;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -203,39 +212,51 @@ body {
                     top: 1rem;
                     right: 1rem;
                 }
-                #hot1 {
-                    width: 4rem;
-                    top: 1.188rem;
-                    left: 2.375rem;
-                    right: 2.375rem;
-                    position: absolute;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
+                .card-top {
+                    width: 100%;
+                    height: 83px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    #hot1 {
+                        width: 4rem;
+                        top: 1.188rem;
+                        left: 2.375rem;
+                        right: 2.375rem;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-top: 1.188rem;
+                    }
+                    #hot2 {
+                        max-width: 6rem;
+                        top: 2rem;
+                        left: 1.375rem;
+                        right: 1.375rem;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        padding-top: 2rem;
+                    }   
                 }
+                
                 h3 {
                     position: inherit;
                     text-decoration: none;
                     color: $secondary;
                     font-size: 14px;
-                    top: 5.688rem;
+                    top: .5rem;
                     left: auto;
                     right: auto;
+                    padding-left: 0.4rem;
+                    padding-bottom: 0.4rem;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
                     
                 }
-                #hot2 {
-                    width: 6rem;
-                    top: 2rem;
-                    left: 1.375rem;
-                    right: 1.375rem;
-                    position: absolute;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
+                
                 #money {
                     width: 1rem;
                     position: absolute;

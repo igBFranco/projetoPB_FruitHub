@@ -91,7 +91,7 @@ body {
   padding-left: 3.5rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 14px;
+  font-size: 12px;
   outline: none;
   margin-bottom: 2.5rem;
 }
@@ -129,6 +129,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
   max-width: 500px;
 }
 
@@ -148,12 +149,29 @@ body {
   right: 1rem;
 }
 
-.content .recomended .recomended-cards a #rec1 {
-  width: 5rem;
+.content .recomended .recomended-cards a .top-card {
+  width: 100%;
+  height: 102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .recomended .recomended-cards a .top-card #rec1 {
+  max-width: 5rem;
   top: 1.375rem;
   left: 2.25rem;
   right: 2.25rem;
-  position: absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -164,9 +182,9 @@ body {
   text-decoration: none;
   color: #27214D;
   font-size: 15px;
-  top: 6.875rem;
   left: auto;
   right: auto;
+  padding-left: 0.4rem;
   margin: 0;
   text-align: center;
   font-weight: 600;
@@ -279,15 +297,44 @@ body {
   right: 1rem;
 }
 
-.content .hottest .hottest-cards a #hot1 {
+.content .hottest .hottest-cards a .card-top {
+  width: 100%;
+  height: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .hottest .hottest-cards a .card-top #hot1 {
   width: 4rem;
   top: 1.188rem;
   left: 2.375rem;
   right: 2.375rem;
-  position: absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1.188rem;
+}
+
+.content .hottest .hottest-cards a .card-top #hot2 {
+  max-width: 6rem;
+  top: 2rem;
+  left: 1.375rem;
+  right: 1.375rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
 }
 
 .content .hottest .hottest-cards a h3 {
@@ -295,23 +342,14 @@ body {
   text-decoration: none;
   color: #27214D;
   font-size: 14px;
-  top: 5.688rem;
+  top: .5rem;
   left: auto;
   right: auto;
+  padding-left: 0.4rem;
+  padding-bottom: 0.4rem;
   margin: 0;
   text-align: center;
   font-weight: 600;
-}
-
-.content .hottest .hottest-cards a #hot2 {
-  width: 6rem;
-  top: 2rem;
-  left: 1.375rem;
-  right: 1.375rem;
-  position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .content .hottest .hottest-cards a #money {
