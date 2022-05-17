@@ -67,7 +67,12 @@ body {
 
 .navbar .title .search {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .navbar .title .search .icon {
@@ -79,7 +84,6 @@ body {
 
 .navbar .title .search input {
   width: 86%;
-  max-width: 436px;
   height: 3.5rem;
   border-radius: 1rem;
   border: none;
@@ -94,8 +98,10 @@ body {
 
 .navbar .title .search #filter {
   width: 1.625rem;
+  height: 1.063rem;
   margin-left: 12px;
   margin-right: auto;
+  margin-top: 1.2rem;
 }
 
 .content .recomended {

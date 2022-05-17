@@ -41,7 +41,9 @@ body {
         }
         .search {
             width: 100%;
+            display: flex;
             position: relative;
+            box-sizing: border-box;
             .icon {
                 position: absolute;
                 top: 20px;
@@ -50,7 +52,6 @@ body {
             }
             input {
                 width: 86%;
-                max-width: 436px;
                 height: 3.5rem;
                 border-radius: 1rem;
                 border: none;
@@ -63,8 +64,10 @@ body {
             }
             #filter {
                 width: 1.625rem;
+                height: 1.063rem;
                 margin-left: 12px;
                 margin-right: auto;
+                margin-top: 1.2rem;
             }
         }
     }
